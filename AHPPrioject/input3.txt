@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<class>
+	<element>
+		<name>Climate</name>
+		<rank>0.5 0.25 0.5</rank>
+		<alternative>1 4 4</alternative>
+	</element>
+	<element>
+		<name>Environment</name>
+		<rank>0.5 0.25 0.5</rank>
+		<alternative>2 6 3</alternative>
+	</element>
+	<element>
+		<name>Cost</name>
+		<rank>0.5 0.25 0.5</rank>
+		<alternative>0.5 0.125 0.25</alternative>
+	</element>
+
+</class>

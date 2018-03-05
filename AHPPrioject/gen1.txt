@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<class>
+	<element>
+		<name>a</name>
+		<rank>2 2 2</rank>
+		<alternative></alternative>
+	</element>
+	<element>
+		<name>b</name>
+		<rank>2 2 2</rank>
+		<alternative>2 2 2</alternative>
+	</element>
+	<element>
+		<name>c</name>
+		<rank>2 2 2</rank>
+		<alternative>2 2 2</alternative>
+	</element>
+	<element parent = "a">
+		<name>d</name>
+		<rank>2</rank>
+		<alternative>2 2 2</alternative>
+	</element>
+	<element parent = "a">
+		<name>c</name>
+		<rank>2</rank>
+		<alternative>2 2 2</alternative>
+	</element>
+</class>

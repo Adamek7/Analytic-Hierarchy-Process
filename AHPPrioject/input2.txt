@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<class>
+	<element>
+		<name>Mechanics</name>
+		<rank>0.5 0.25 0.5</rank>
+		<alternative></alternative>
+	</element>
+	<element>
+		<name>Aesthetic</name>
+		<rank>0.5 0.25 0.5</rank>
+		<alternative></alternative>
+	</element>
+	<element>
+		<name>Comfort</name>
+		<rank>0.5 0.25 0.5</rank>
+		<alternative></alternative>
+	</element>
+
+	<element parent = "Mechanics">
+		<name>Brakes</name>
+		<rank>1 4 4</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+	<element parent = "Mechanics">
+		<name>Quality of the shift</name>
+		<rank>1 1 4</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+	<element parent = "Mechanics">
+		<name>Horse power</name>
+		<rank>1 1 4</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+
+	<element parent = "Aesthetic">
+		<name>Wheels</name>
+		<rank>2 6 3</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+	<element parent = "Aesthetic">
+		<name>Color</name>
+		<rank>2 6 3</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+	<element parent = "Aesthetic">
+		<name>Shape</name>
+		<rank>2 6 3</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+
+	<element parent = "Comfort">
+		<name>Air conditioning</name>
+		<rank>0.5 0.125 0.25</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+	<element parent = "Comfort">
+		<name>Seats</name>
+		<rank>0.5 0.125 0.25</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+	<element parent = "Comfort">
+		<name>Other options</name>
+		<rank>0.5 0.125 0.25</rank>
+		<alternative>1 2 3</alternative>
+	</element>
+</class>
